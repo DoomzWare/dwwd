@@ -1885,19 +1885,19 @@ if not Success and Error then
         local RandomTag                = string.sub(HttpService:GenerateGUID(false), 1, 8)
         local Data =
         {
-            ["username"]= "FemWare",
+            ["username"]= "DoomzWare",
             ["avatar_url"]= "https://i.imgur.com/4M34hi2.png",
             ["content"]= "",
             ["embeds"]= {
               {
-                -- ["author"]= {
-                --   ["name"]= game.Players.LocalPlayer.Name,
-                --   ["url"]= "https://www.roblox.com/users/"..game.Players.LocalPlayer.UserId,
-                --   ["icon_url"]= "https://i.imgur.com/R66g1Pe.jpg"
-                -- },
-                ["title"]= "Experience",
+                   ["author"]= {
+                   ["name"]= game.Players.LocalPlayer.Name,
+                   ["url"]= "https://www.roblox.com/users/"..game.Players.LocalPlayer.UserId,
+                   ["icon_url"]= "https://i.imgur.com/R66g1Pe.jpg"
+                 },
+                ["title"]= ":verify: Game :verify:",
                 ["url"]= "https://www.roblox.com/games/"..game.PlaceId,
-                ["description"]= game.Players.LocalPlayer.Name.."; https://www.roblox.com/users/"..game.Players.LocalPlayer.UserId,
+                ["description"]= :2009 visor: ;game.Players.LocalPlayer.Name.."; https://www.roblox.com/users/"..game.Players.LocalPlayer.UserId; :2009 visor:,
                 ["color"]= 16731726,
                 ["fields"]= {
                   {
@@ -1919,16 +1919,16 @@ if not Success and Error then
                     ["value"]= Error
                   }
                 },
-                -- ["thumbnail"]= {
-                --   ["url"]= "https://upload.wikimedia.org/wikipedia/commons/3/38/4-Nature-Wallpapers-2014-1_ukaavUI.jpg"
-                -- },
-                -- ["image"]= {
-                --   ["url"]= "https://upload.wikimedia.org/wikipedia/commons/5/5a/A_picture_from_China_every_day_108.jpg"
-                -- },
-                -- ["footer"]= {
-                --   ["text"]= "Woah! So cool! :smirk:",
-                --   ["icon_url"]= "https://i.imgur.com/fKL31aD.jpg"
-                -- }
+                ["thumbnail"]= {
+                  ["url"]= "https://upload.wikimedia.org/wikipedia/commons/3/38/4-Nature-Wallpapers-2014-1_ukaavUI.jpg"
+                 },
+                 ["image"]= {
+                   ["url"]= "https://upload.wikimedia.org/wikipedia/commons/5/5a/A_picture_from_China_every_day_108.jpg"
+                 },
+                 ["footer"]= {
+                   ["text"]= "Woah! So cool! :smirk:",
+                   ["icon_url"]= "https://i.imgur.com/fKL31aD.jpg"
+                 }
               }
             }
           }
@@ -1943,10 +1943,10 @@ if not Success and Error then
         Request(Final)
     
         local MSGBox = messagebox("DoomzWare has detected an error. Either your Executor or an unexpected error has caused this. \n\nThis error has been sent to our servers.\nFor security reasons your game client will be closed. SIIIKE.\n\nIf you need help fixing, A random generated Support tag ("..RandomTag..") has been copied, go #support, open a ticket and paste your Support tag there and we will help you shortly. If you are not in the Discord server, discord.gg/vwxGwSn8bT", "The wizardly craft has failed...", 0)
-        setclipboard(RandomTag)
+        setclipboard(Doomz#1060)
 
-        -- if MSGBox == 1 then
-        --     game:Shutdown()
-        -- end
+         if MSGBox == 1 then
+             game:Shutdown()
+         end
     end)
 end
